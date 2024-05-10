@@ -1,7 +1,19 @@
 {
-  "name": "nuxt-app",
+  "name": "unshade",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@9.1.0",
+  "description": "unshade a configuration of shadcn-ui & unocss",
+  "author": "Tunji Oalkunle",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:Tomas-Studio/shaduno.git"
+  },
+  "keywords": [
+    "unocss",
+    "shadcn-ui"
+  ],
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
