@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@nuxt/eslint": "^0.3.12",
+    "@unocss/nuxt": "^0.60.0",
     "nuxt": "^3.11.2",
     "shadcn-nuxt": "^0.10.4",
     "vue": "^3.4.27",
