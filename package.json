@@ -28,5 +28,15 @@
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "lint-staged": "^15.2.2",
+    "simple-git-hooks": "^2.11.1"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "na lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint . --fix"
   }
 }
