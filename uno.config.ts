@@ -44,15 +44,9 @@ export default defineConfig({
     transformerDirectives(),
     transformerVariantGroup(),
   ],
-  // content: {
-  //   pipeline: {
-  //     include: [
-  //       // the default
-  //       /\.(vue|svelte|[jt]sx|mdx?|astro|elm|php|phtml|html)($|\?)/,
-  //       // include js/ts files
-  //       "./**/*.{js,ts}",
-  //     ],
-  //   },
-  // },
-  include: [/\.ts/, /\.vue$/, /\.vue\?vue/],
+  content: {
+    pipeline: {
+      include: [/\.ts/, /\.vue$/, /\.vue\?vue/],
+    },
+  },
 })
