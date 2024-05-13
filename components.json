@@ -1,0 +1,15 @@
+{
+  "style": "new-york",
+  "typescript": true,
+  "tailwind": {
+    "config": "uno.config.ts",
+    "css": "assets/styles/main.css",
+    "baseColor": "neutral",
+    "cssVariables": true
+  },
+  "framework": "nuxt",
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils"
+  }
+}
